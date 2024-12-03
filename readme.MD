@@ -125,6 +125,7 @@ systemctl enable  grafana-server
 ```
 
 Reference: https://prometheus.io/download/
+
 # alertmanager
 ```
 * move to /opt directory
