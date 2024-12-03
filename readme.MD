@@ -112,7 +112,7 @@ sslcacert=/etc/pki/tls/certs/ca-bundle.crt
 ``````
 sudo dnf install grafana -y
 ``````````
- systemctl deamon-reload
+ systemctl daemon-reload
 ```````````
 systemctl start grafana
 
