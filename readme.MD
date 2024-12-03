@@ -85,15 +85,19 @@ systemctl enable node_exporter
 # grafana
 
 * move to /opt directory
+```````````
 curl -o gpg.key https://rpm.grafana.com/gpg.key
 
 * import 
+``````````
 sudo rpm --import gpg.key
 
 * Create repo
+`````````
 vim /etc/yum.repos.d/grafana.repo
 
 * Enter below info
+`````````
 [grafana]
 name=grafana
 baseurl=https://rpm.grafana.com
@@ -103,14 +107,13 @@ gpgcheck=1
 gpgkey=https://rpm.grafana.com/gpg.key
 sslverify=1
 sslcacert=/etc/pki/tls/certs/ca-bundle.crt
-
+````````````
 * install grafana
+``````
 sudo dnf install grafana -y
 ``````````
- 
-systemctl deamon-reload
+ systemctl deamon-reload
 ```````````
-
 systemctl start grafana
 
 
