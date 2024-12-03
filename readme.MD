@@ -82,6 +82,8 @@ systemctl start node_exporter
 systemctl enable node_exporter
 ```
 
+Reference: https://grafana.com/docs/grafana/latest/setup-grafana/installation/redhat-rhel-fedora/
+
 # grafana
 
 * move to /opt directory
