@@ -116,7 +116,10 @@ sudo dnf install grafana -y
 ```
  systemctl daemon-reload
 ```
-systemctl start grafana
+systemctl start grafana-server
+```
+systemctl enable  grafana-server
+
 
 
 
