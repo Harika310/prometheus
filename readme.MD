@@ -122,6 +122,14 @@ sudo dnf install grafana -y
 systemctl start grafana-server
 ```
 systemctl enable  grafana-server
+```
+
+Reference: https://prometheus.io/download/
+# alertmanager
+```
+* move to /opt directory
+```
+wget https://github.com/prometheus/alertmanager/releases/download/v0.28.0-rc.0/alertmanager-0.28.0-rc.0.linux-amd64.tar.gz
 
 
 
